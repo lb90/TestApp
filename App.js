@@ -24,6 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import { URL, URLSearchParams } from 'react-native-url-polyfill';
+
 const App: () => React$Node = () => {
   return (
     <>
